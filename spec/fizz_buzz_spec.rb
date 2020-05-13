@@ -22,4 +22,13 @@ describe 'game of FizzBuzz' do
     expect(fizz_15).to eq "FizzBuzz"
   end
 
+  it 'should return correct strings for 1 through 5' do
+    arr = []
+    for n in 1..5
+      arr.push(game(n))
+    end
+    p arr
+    expect(arr).to eq ["1", "2", "Fizz", "4", "Buzz"]
+  end
+
 end
