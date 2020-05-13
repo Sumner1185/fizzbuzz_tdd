@@ -2,10 +2,12 @@ require 'fizz_buzz'
 
 describe 'game of FizzBuzz' do
   
-  it 'should return a number' do
-    arr = []
-    arr.push(1)
-    expect(game(arr)).to be_kind_of(Integer)
+  xit 'should return a number' do
+    expect(game(1)).to eq 1
+  end
+
+  it 'should return "Fizz" if number is "3"' do
+    expect(game(3)).to eq "Fizz"
   end
 
 end

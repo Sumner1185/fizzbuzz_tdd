@@ -1,3 +1,5 @@
-def game(arr)
-  return arr[0]
+def game(n)
+  if n % 3 == 0
+    "Fizz"
+  end
 end
