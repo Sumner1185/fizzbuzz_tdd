@@ -27,7 +27,6 @@ describe 'game of FizzBuzz' do
     for n in 1..5
       arr.push(game(n))
     end
-    p arr
     expect(arr).to eq ["1", "2", "Fizz", "4", "Buzz"]
   end
 
